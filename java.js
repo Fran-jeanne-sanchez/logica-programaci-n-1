@@ -7,6 +7,9 @@ let numero3 = prompt("IIngrese el tercer numero");
 numero1 = parseFloat(numero1);
 numero2 = parseFloat(numero2);
 numero3 = parseFloat(numero3);
+if (numero1 === numero2 && numero1 === numero3){
+    console.log("Los numeros son iguales")
+} else{
 
 let mayor, centro, menor;
 
@@ -26,3 +29,4 @@ if (numero1 >= numero2 && numero1 >= numero3){
 }
 console.log(`Ordenalos de mayor a menor: ${mayor}, ${centro}, ${menor}` );
 console.log(`Ordenalos de menor a mayor: ${mayor}, ${centro}, ${menor}` );
+}
