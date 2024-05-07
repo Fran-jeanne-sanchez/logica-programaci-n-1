@@ -7,6 +7,8 @@ let numero3 = prompt("IIngrese el tercer numero");
 numero1 = parseFloat(numero1);
 numero2 = parseFloat(numero2);
 numero3 = parseFloat(numero3);
+
+
 if (numero1 === numero2 && numero2 === numero3){
     console.log("Los numeros son iguales")
 } else{
